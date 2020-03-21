@@ -2,6 +2,12 @@ body {
     background-color: #f2f2f2;
 }
 
+.container {
+    border: inset thin gainsboro;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
 /* HEADER */
 header {
    margin-top: 5%;
@@ -17,4 +23,32 @@ P {
     font-weight: lighter;
     text-align: center;
     margin-top: 1%;
+}
+
+
+
+/* Cards */
+#supervisor {
+    border-top: solid aqua;
+}
+
+#teamBuilder {
+    border-top: solid red;
+}
+
+#karma {
+    border-top: solid yellow;
+}
+
+#calculator {
+    border-top: solid blue;
+}
+
+.card-img-top {
+   width: 10%;
+   float: right;
+}
+
+.card {
+    margin: 1%;
 }
